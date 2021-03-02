@@ -1,0 +1,23 @@
+<p>
+<b>Note Maker</b>
+<br/>
+<br/>
+Title :
+<br/>
+<input type="text" [(ngModel)]="textjudul"/>
+<br/>
+
+Date :
+<br/>
+<input type="text" [(ngModel)]="tanggal"/>
+<br/>
+
+Details :
+<br/>
+<input type="text" [(ngModel)]="textdetail"/>
+<br/>
+
+<br/>
+<button (click)="detailpage()">Save to list!</button>
+</p>
+<router-outlet></router-outlet>
